@@ -8,5 +8,5 @@ function my_facto_rec($nbr = "txt")
     if ($nbr <= 1) {
         return 1;
     }
-    return $nbr * my_facto($nbr - 1);
+    return $nbr * my_facto_rec($nbr - 1);
 }
