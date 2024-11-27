@@ -15,8 +15,8 @@ function my_pow($nb_a = "txt", $nb_b = "txt")
     return $res;
 }
 
-$a = -19;
-$b = -20;
-echo my_pow($a,$b);
-echo "\n";
+// $a = -19;
+// $b = -20;
+// echo my_pow($a,$b);
+// echo "\n";
 // echo pow($a,$b);

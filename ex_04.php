@@ -2,7 +2,7 @@
 
 function my_pow_rec($nb_a = "txt", $nb_b = "txt")
 {
-    if (!is_int($nb_a) || !is_int($nb_a) || $nb_b < 0) {
+    if (!is_int($nb_a) || !is_int($nb_b) || $nb_b < 0) {
         return null;
     }
     if ($nb_b == 0) {
