@@ -1,6 +1,6 @@
 <?php
 
-function my_facto($nbr = "txt")
+function my_facto_rec($nbr = "txt")
 {
     if (($nbr < 0) || !is_int($nbr)) {
         return null;
