@@ -1,6 +1,6 @@
 <?php
 
-function str_beautifuler($str = null)
+function str_beautifuler(string $str = null)
 {
     if (!is_string($str)) {
         return null;
@@ -23,4 +23,4 @@ function str_beautifuler($str = null)
     }
     return $newstr;
 }
-//echo str_beautifuler("caca    d d  z z zddd d");
+//echo str_beautifuler("caca    d d  z z zddd d\n\n ddd  ");
