@@ -1,0 +1,12 @@
+<?php
+
+function my_facto($nbr = "txt")
+{
+    if (($nbr < 0) || !is_int($nbr)) {
+        return null;
+    }
+    if ($nbr <= 1) {
+        return 1;
+    }
+    return $nbr * my_facto($nbr - 1);
+}
