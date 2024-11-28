@@ -7,5 +7,3 @@ function str_to_wordtab($str = null, $sep = null)
     }
     return explode($sep, $str); // si il repasse pas gerer le cas ou le tab est vide
 }
-
-var_dump(str_to_wordtab(" salut ca va ? moi oui ", " "));
