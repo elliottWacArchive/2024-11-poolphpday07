@@ -7,6 +7,7 @@ function str_beautifuler(string $str = null)
     }
     $newstr = "";
     $str = trim($str);
+    $str = strtolower($str);
     $strlen = strlen($str);
     for ($i = 0; $i < $strlen; $i++) {
         if ($str[$i] == " ") {
@@ -23,4 +24,3 @@ function str_beautifuler(string $str = null)
     }
     return $newstr;
 }
-//echo str_beautifuler("caca    d d  z z zddd d\n\n ddd  ");
