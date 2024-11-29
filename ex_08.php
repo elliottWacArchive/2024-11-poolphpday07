@@ -1,6 +1,6 @@
 <?php
 
-function str_beautifuler(string $str = null)
+function str_beautifuler($str = null)
 {
     if (!is_string($str)) {
         return null;

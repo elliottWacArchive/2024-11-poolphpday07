@@ -9,7 +9,7 @@ function my_pow($nb_a = "txt", $nb_b = "txt")
     } elseif ($nb_a == 0) {
         return 0;
     } else {
-        $a = nb_a;
+        $a = $nb_a;
         for ($i = 1; $i < $nb_b; $i++) {
             $nb_a = $nb_a * $a;
         }
